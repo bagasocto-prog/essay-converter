@@ -22,7 +22,7 @@ jobs:
       run: pip install pyinstaller openpyxl
 
     - name: Build EXE
-      run: pyinstaller --onefile rapikan_essay.py
+      run: pyinstaller --onefile selamat_datang_di_colab.py
 
     - name: Upload artifact
       uses: actions/upload-artifact@v4
